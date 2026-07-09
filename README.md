@@ -92,8 +92,3 @@ To improve data integrity, several `CHECK` constraints were added.
 These constraints prevent invalid values from being inserted into the database and help maintain data consistency.
 
 ---
-
-
-
-
-The table is therefore treated as an independent reference table and can be used for geographical analysis or aggregated into a separate ZIP code dimension if needed.
