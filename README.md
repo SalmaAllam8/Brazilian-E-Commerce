@@ -94,6 +94,6 @@ These constraints prevent invalid values from being inserted into the database a
 ---
 
 
-The original Olist dataset contains multiple latitude and longitude records for the same ZIP code prefix, meaning `geolocation_zip_code_prefix` is **not unique**. Because of this, it cannot be used as a reliable primary key or referenced by foreign keys.
+
 
 The table is therefore treated as an independent reference table and can be used for geographical analysis or aggregated into a separate ZIP code dimension if needed.
