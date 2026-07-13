@@ -98,7 +98,18 @@ These constraints prevent invalid values from being inserted into the database a
 <img width="2000" height="1333" alt="work-office-computer-man-woman-business-character-marketing-online-employee-technology-business-man-cartoon-co-working-flat-design-freelance" src="https://github.com/user-attachments/assets/c329f00f-4f4b-49d7-a1dd-6c4cab8adcc9" />
 
 
+>The exploratory data analysis (EDA) phase was conducted to gain a comprehensive understanding of the Olist Brazilian E-Commerce dataset and uncover meaningful business insights before moving to advanced analysis. Beyond examining the structure and quality of the data, this analysis focuses on identifying patterns in customer behavior, sales performance, logistics efficiency, freight costs, delivery reliability, and customer satisfaction.
+
+>The dataset was first cleaned and transformed by handling missing values, converting date columns to appropriate datetime formats, creating categorical variables, engineering new business metrics, and integrating multiple tables into a relational analytical model. These transformations enabled more detailed temporal, geographical, and operational analyses.
+
+>Throughout the analysis, interactive dashboards and visualizations were developed to answer key business questions, including:
+
+* Sales performance and revenue trends over time
+* Geographic distributions of revenue , delivery costs accross the states
+* Logistics performance, delivery times, and late delivery analysis
+* Freight cost efficiency and freight-to-product value ratios
+* Customer review sentiment analysis using Natural Language Processing (NLP)
+* Product category performance and purchasing behavior
+* Seasonal trends, including the impact of Black Friday on order volume and delivery performance
 
 
-
----
