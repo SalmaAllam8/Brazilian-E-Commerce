@@ -30,7 +30,7 @@ The database schema follows the relational structure of the Olist Brazilian E-co
 
 ---
 
-## Primary Keys
+### Primary Keys
 
 The following primary keys were implemented:
 
@@ -48,7 +48,7 @@ Composite primary keys were used where a single column was not sufficient to uni
 
 ---
 
-## Foreign Keys
+### Foreign Keys
 
 | Table | Foreign Key | References |
 |--------|-------------|------------|
@@ -61,7 +61,7 @@ Composite primary keys were used where a single column was not sufficient to uni
 
 ---
 
-## Check Constraints
+### Check Constraints
 
 To improve data integrity, several `CHECK` constraints were added.
 
@@ -90,6 +90,7 @@ To improve data integrity, several `CHECK` constraints were added.
 - `review_score BETWEEN 1 AND 5`
 
 These constraints prevent invalid values from being inserted into the database and help maintain data consistency.
+indices were added to optimize the queries 
 
 # Exploratory Data Analysis
 
