@@ -91,4 +91,14 @@ To improve data integrity, several `CHECK` constraints were added.
 
 These constraints prevent invalid values from being inserted into the database and help maintain data consistency.
 
+# Exploratory Data Analysis
+
+
+
+<img width="2000" height="1333" alt="work-office-computer-man-woman-business-character-marketing-online-employee-technology-business-man-cartoon-co-working-flat-design-freelance" src="https://github.com/user-attachments/assets/c329f00f-4f4b-49d7-a1dd-6c4cab8adcc9" />
+
+
+
+
+
 ---
