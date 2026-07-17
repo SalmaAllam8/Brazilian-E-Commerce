@@ -1,6 +1,6 @@
 # Brazilian E-Commerce Public Dataset by Olist
 
-# Introduction
+## Introduction
 
 E-commerce has become one of the fastest-growing sectors of the global economy, transforming the way consumers purchase products and services. Its adoption accelerated significantly after the COVID-19 pandemic as online shopping became an essential part of everyday life. This digital transformation has enabled businesses of all sizes to reach customers beyond geographical boundaries, making markets more accessible and competitive.
 
@@ -8,7 +8,7 @@ As the largest e-commerce market in Latin America, Brazil plays a pivotal role i
 
 This project performs an end-to-end exploratory data analysis (EDA) of the Brazilian Olist e-commerce dataset to uncover actionable business insights across customer behavior, sales trends, delivery performance, regional markets, logistics, freight costs, and customer satisfaction. The analysis aims to identify opportunities for operational improvement and support data-driven business decision-making.
 
-# About the data 
+## About the data 
 
 *The  Brazilian ecommerce public dataset of orders made at Olist Store. The dataset has information of 100k orders from 2016 to 2018 made
 at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and 
@@ -95,11 +95,9 @@ To improve data integrity, several `CHECK` constraints were added.
 ### Reviews
 
 - `review_score BETWEEN 1 AND 5`
+These constraints prevent invalid values from being inserted into the database and help maintain data consistency. Additionally, indexes were created on frequently queried columns to improve query performance and reduce execution time.
 
-These constraints prevent invalid values from being inserted into the database and help maintain data consistency.
-indices were added to optimize the queries 
-
-# Exploratory Data Analysis
+# Exploratory Data Analysis & Business Analysis
 
 
 
@@ -121,14 +119,17 @@ indices were added to optimize the queries
 * Seasonal trends, including the impact of Black Friday on order volume and delivery performance
 ___
 ## Order fulfillment reliability.
-*What percentage of customer orders are successfully completed versus interrupted by cancellations or operational issues?
+*What percentage of customer orders are successfully completed versus interrupted by cancellations or operational issues?*
 
 <img width="989" height="590" alt="image1" src="https://github.com/user-attachments/assets/287ed2a2-f263-4b1a-9800-943a47f305dc" />
 
->Business Impact: The high delivery completion rate demonstrates strong operational performance and customer fulfillment reliability. Since failed or canceled orders represent only a small percentage of transactions, subsequent analyses can focus on optimizing delivery speed, freight efficiency, and customer satisfaction rather than addressing widespread fulfillment failures.
+### key Insights 
+>Approximately 97% of all orders were successfully delivered, indicating a highly reliable fulfillment process. Only a small fraction of orders were shipped, canceled, unavailable, or remained in intermediate processing states. This suggests that operational disruptions are relatively uncommon and that the logistics network successfully completes the vast majority of customer orders.
+### Business Impact
+>The high delivery completion rate demonstrates strong operational performance and customer fulfillment reliability. Since failed or canceled orders represent only a small percentage of transactions, subsequent analyses can focus on optimizing delivery speed, freight efficiency, and customer satisfaction rather than addressing widespread fulfillment failures.
 
 ___
-* When do customers place the highest number of orders, and are there any temporal purchasing patterns that can help optimize business operations?
+* When do customers place the highest number of orders, and are there any temporal purchasing patterns that can help optimize business operations?*
 
 <img width="1277" height="989" alt="image2" src="https://github.com/user-attachments/assets/a8eab93e-7c46-4799-a6b9-be30568fc64e" />
 
@@ -149,20 +150,15 @@ Recognizing low-demand periods, such as weekends and dawn hours, creates opportu
 Temporal purchasing patterns provide valuable insights for inventory planning, helping businesses anticipate demand fluctuations and improve service quality.
 
 ___
-* When are customers most likely to place orders, and how can these purchasing patterns help optimize staffing, marketing campaigns, and operational planning?
+* When are customers most likely to place orders, and how can these purchasing patterns help optimize staffing, marketing campaigns, and operational planning?*
 <img width="1333" height="1071" alt="image3" src="https://github.com/user-attachments/assets/45752f44-f41e-47b5-bbf1-c3ea63bdafcf" />
 
 ### Key Insights
 >Order activity is concentrated during weekday business hours, with Monday recording the highest order volume, followed closely by Tuesday and Wednesday.
->
 >Purchasing behavior follows a clear daily pattern, with demand increasing rapidly after 8 AM, peaking between 10 AM and 4 PM, and remaining relatively high until late evening.
->
 > Overnight activity (2–6 AM) is minimal, indicating that customers rarely purchase during these hours.
->
 >The Day × Hour heatmap highlights a consistent "Golden Purchase Window" between 10 AM and 9 PM on weekdays, where order volume is highest.
->
 >Weekend purchasing activity decreases noticeably, particularly on Saturdays, although evening demand remains relatively stable.
->
 ### Business Impact
 
 > Schedule marketing campaigns, promotional emails, and push notifications during the **10 AM–4 PM** window to maximize customer engagement.
@@ -178,8 +174,7 @@ ___
 ___
 ## Sales Growth & Seasonality Performance Dashboard
 
-
-> **How has order demand evolved over time, what seasonal purchasing patterns exist, and which periods consistently generate the highest sales volume?**
+*How has order demand evolved over time, what seasonal purchasing patterns exist, and which periods consistently generate the highest sales volume?*
 <img width="1324" height="1071" alt="image4" src="https://github.com/user-attachments/assets/fdbaa247-3e9c-4ed3-bad0-f35ef0448bf2" />
 
 
@@ -211,7 +206,7 @@ ___
 
 ___
 ## Delivery Performance & Fulfillment Operations Dashboard
-> **How efficiently are orders progressing through the fulfillment pipeline, from customer purchase to carrier dispatch, and where do operational bottlenecks occur?**
+*How efficiently are orders progressing through the fulfillment pipeline, from customer purchase to carrier dispatch, and where do operational bottlenecks occur?*
 
 
 <img width="1380" height="1104" alt="image5" src="https://github.com/user-attachments/assets/af3fc528-2310-4ff9-8433-5eca11d95095" />
@@ -244,7 +239,7 @@ ___
 ___
 ## Year-over-Year Growth Performance Dashboard
 
-> **How did order volume change between 2017 and 2018, and what does the year-over-year comparison reveal about the marketplace's growth trajectory?**
+*How did order volume change between 2017 and 2018, and what does the year-over-year comparison reveal about the marketplace's growth trajectory?*
 <img width="1311" height="511" alt="image6" src="https://github.com/user-attachments/assets/8fce157b-f538-4c15-96c2-51e6b024920f" />
 
 
@@ -274,7 +269,7 @@ ___
 
 
 ___
-> *How is revenue distributed across Brazil's macro-regions, and which regions generate the highest customer value through Average Order Value (AOV)?*
+*How is revenue distributed across Brazil's macro-regions, and which regions generate the highest customer value through Average Order Value (AOV)?*
 <img width="1466" height="719" alt="image7" src="https://github.com/user-attachments/assets/e36fda64-cc93-4a80-8814-4bd1e27d9ff0" />
 
 ### Insights
@@ -303,7 +298,7 @@ ___
 
 
 ___
-> *How is customer demand distributed across Brazil's regions, states, and cities, and which geographic markets contribute the most to overall order volume?*
+ *How is customer demand distributed across Brazil's regions, states, and cities, and which geographic markets contribute the most to overall order volume?*
 
 <img width="1511" height="1011" alt="image8" src="https://github.com/user-attachments/assets/56fa4c67-bd9f-4a62-a842-6dbf82225825" />
 
@@ -335,7 +330,8 @@ ___
 > - Geographic demand analysis provides valuable guidance for regional expansion, warehouse placement, inventory planning, and localized marketing strategies.
 
 ___
-> *How did total sales revenue, order volume, and freight costs evolve over time, and what do these trends reveal about business growth and operational performance?*
+
+*How did total sales revenue, order volume, and freight costs evolve over time, and what do these trends reveal about business growth and operational performance?*
 
 <img width="1490" height="1189" alt="image9" src="https://github.com/user-attachments/assets/410c2cb6-8438-4e02-ae13-2aeb51478204" />
 
@@ -363,7 +359,7 @@ ___
 
 > - Tracking revenue, order volume, and freight expenses together provides management with a comprehensive view of both commercial performance and operational efficiency, enabling more informed strategic planning.
 ___
-> *How effectively does the company meet its delivery promises, and which states demonstrate the strongest and weakest delivery performance?*
+ *How effectively does the company meet its delivery promises, and which states demonstrate the strongest and weakest delivery performance?*
 <img width="1839" height="933" alt="output" src="https://github.com/user-attachments/assets/748029ec-d761-4c44-83ed-7e489c87b227" />
 
 
@@ -380,7 +376,7 @@ ___
 >- Regional performance comparisons help identify logistics best practices that can be replicated across underperforming states.
 ___
 
-> *Which product categories incur the highest freight costs relative to their product price across different Brazilian regions, and where are shipping costs disproportionately high?*
+ *Which product categories incur the highest freight costs relative to their product price across different Brazilian regions, and where are shipping costs disproportionately high?*
 <img width="1599" height="590" alt="image10" src="https://github.com/user-attachments/assets/ed0eafe0-c3dd-467d-8fa6-f8151c40427b" />
 
 
@@ -404,7 +400,7 @@ ___
 
 > Monitoring freight-to-price ratios across regions enables more informed inventory allocation and logistics planning, reducing operational costs and improving customer satisfaction.
 ___
-> **How efficient are shipping costs across states, regions, and product categories, and where are the biggest opportunities to reduce freight expenses while maintaining customer satisfaction?**
+*How efficient are shipping costs across states, regions, and product categories, and where are the biggest opportunities to reduce freight expenses while maintaining customer satisfaction?*
 <img width="1797" height="1453" alt="output2" src="https://github.com/user-attachments/assets/3430f97d-a488-4f5f-8b8f-f0a29e2a1861" />
 
 ### Key insights
