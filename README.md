@@ -112,7 +112,7 @@ indices were added to optimize the queries
 * Customer review sentiment analysis using Natural Language Processing (NLP)
 * Product category performance and purchasing behavior
 * Seasonal trends, including the impact of Black Friday on order volume and delivery performance
-
+___
 ## Order fulfillment reliability.
 *What percentage of customer orders are successfully completed versus interrupted by cancellations or operational issues?
 
@@ -120,12 +120,12 @@ indices were added to optimize the queries
 
 >Business Impact: The high delivery completion rate demonstrates strong operational performance and customer fulfillment reliability. Since failed or canceled orders represent only a small percentage of transactions, subsequent analyses can focus on optimizing delivery speed, freight efficiency, and customer satisfaction rather than addressing widespread fulfillment failures.
 
-
+___
 * When do customers place the highest number of orders, and are there any temporal purchasing patterns that can help optimize business operations?
 
 <img width="1277" height="989" alt="image2" src="https://github.com/user-attachments/assets/a8eab93e-7c46-4799-a6b9-be30568fc64e" />
 
->Key Insights
+### Key Insights
 > Monthly order volume grew steadily throughout 2017, reflecting the rapid expansion of the Olist marketplace.
 > November 2017 recorded the highest number of orders, aligning with Brazil's Black Friday shopping season.
 > Following the Black Friday surge, monthly orders stabilized at approximately 6,000–7,000 orders, indicating consistent customer demand.
@@ -133,7 +133,7 @@ indices were added to optimize the queries
 > Customers preferred shopping during the Afternoon (38.3%), followed by Night (28.5%) and Morning (27.9%), whereas Dawn accounted for only 5.3% of purchases.
 > The sharp decline observed at the end of the timeline reflects incomplete data collection rather than an actual drop in customer demand.
 >
- * Business Impact
+### Business Impact
 >Seasonal events, particularly Black Friday, have a significant impact on demand and require additional inventory, staffing, and logistics capacity.
 Customer purchasing behavior is highly concentrated during weekday afternoons, providing an ideal window for targeted marketing campaigns and promotional activities.
 
@@ -141,7 +141,7 @@ Customer purchasing behavior is highly concentrated during weekday afternoons, p
 Recognizing low-demand periods, such as weekends and dawn hours, creates opportunities to optimize operational costs through smarter resource allocation.
 Temporal purchasing patterns provide valuable insights for inventory planning, helping businesses anticipate demand fluctuations and improve service quality.
 
-
+___
 * When are customers most likely to place orders, and how can these purchasing patterns help optimize staffing, marketing campaigns, and operational planning?
 <img width="1333" height="1071" alt="image3" src="https://github.com/user-attachments/assets/45752f44-f41e-47b5-bbf1-c3ea63bdafcf" />
 
@@ -168,7 +168,7 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 
 > Use purchasing patterns to improve forecasting models and workforce scheduling, ensuring resources are aligned with expected order volumes.
 >
-
+___
 ## Sales Growth & Seasonality Performance Dashboard
 
 
@@ -202,7 +202,7 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 
 > Incorporate seasonal demand patterns into forecasting models to improve inventory planning, staffing decisions, and supply chain efficiency.
 
-
+___
 ## Delivery Performance & Fulfillment Operations Dashboard
 > **How efficiently are orders progressing through the fulfillment pipeline, from customer purchase to carrier dispatch, and where do operational bottlenecks occur?**
 
@@ -234,9 +234,8 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 
 > Incorporate fulfillment efficiency metrics into operational dashboards to support workforce planning, warehouse capacity management, and continuous process improvement.
 
-
+___
 ## Year-over-Year Growth Performance Dashboard
-
 
 > **How did order volume change between 2017 and 2018, and what does the year-over-year comparison reveal about the marketplace's growth trajectory?**
 <img width="1311" height="511" alt="image6" src="https://github.com/user-attachments/assets/8fce157b-f538-4c15-96c2-51e6b024920f" />
@@ -267,7 +266,7 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 > Infrastructure, warehouse capacity, and staffing plans should be scaled proactively to support continued increases in marketplace demand.
 
 
-
+___
 > *How is revenue distributed across Brazil's macro-regions, and which regions generate the highest customer value through Average Order Value (AOV)?*
 <img width="1466" height="719" alt="image7" src="https://github.com/user-attachments/assets/e36fda64-cc93-4a80-8814-4bd1e27d9ff0" />
 
@@ -296,7 +295,7 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 > Combining market share analysis with Average Order Value helps distinguish between regions that generate revenue through **customer volume** and those that generate revenue through **higher customer spending**, enabling more effective allocation of marketing and operational resources.
 
 
-
+___
 > *How is customer demand distributed across Brazil's regions, states, and cities, and which geographic markets contribute the most to overall order volume?*
 
 <img width="1511" height="1011" alt="image8" src="https://github.com/user-attachments/assets/56fa4c67-bd9f-4a62-a842-6dbf82225825" />
@@ -328,8 +327,7 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 
 > - Geographic demand analysis provides valuable guidance for regional expansion, warehouse placement, inventory planning, and localized marketing strategies.
 
-## Business Question
-
+___
 > *How did total sales revenue, order volume, and freight costs evolve over time, and what do these trends reveal about business growth and operational performance?*
 
 <img width="1490" height="1189" alt="image9" src="https://github.com/user-attachments/assets/410c2cb6-8438-4e02-ae13-2aeb51478204" />
@@ -357,7 +355,7 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 > - The gradual rise in average freight cost during 2018 may indicate expanding delivery distances, higher carrier pricing, or changing customer purchasing patterns, warranting further logistics optimization.
 
 > - Tracking revenue, order volume, and freight expenses together provides management with a comprehensive view of both commercial performance and operational efficiency, enabling more informed strategic planning.
-
+___
 > *How effectively does the company meet its delivery promises, and which states demonstrate the strongest and weakest delivery performance?*
 <img width="1839" height="933" alt="output" src="https://github.com/user-attachments/assets/748029ec-d761-4c44-83ed-7e489c87b227" />
 
@@ -373,6 +371,59 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 >- States with above-average late-delivery rates should be prioritized for logistics improvements and carrier optimization.
 >- More accurate delivery estimates could improve customer expectations while maintaining high service quality.
 >- Regional performance comparisons help identify logistics best practices that can be replicated across underperforming states.
+___
+
+> *Which product categories incur the highest freight costs relative to their product price across different Brazilian regions, and where are shipping costs disproportionately high?*
+<img width="1599" height="590" alt="image10" src="https://github.com/user-attachments/assets/ed0eafe0-c3dd-467d-8fa6-f8151c40427b" />
+
+
+###  Key Insights
+> Electronics consistently exhibit the highest freight-to-product price ratio across all regions, reaching **100% in the North**, indicating that shipping can cost as much as the product itself.
+
+> Telephony products also have relatively high freight ratios, particularly in the **North (0.83)** and **Northeast (0.63)**, suggesting logistics costs represent a significant share of the selling price.
+
+> The **North** generally experiences the highest freight burden across most product categories, while the **Southeast** maintains the lowest freight-to-price ratios, reflecting a more efficient logistics network.
+
+> Categories such as **Watches & Gifts**, **Cool Stuff**, and **Toys** maintain comparatively low freight ratios across nearly all regions, indicating lower transportation costs relative to product value.
+
+> Large regional differences for the same product category highlight that geographic location has a major impact on shipping efficiency and overall logistics costs.
+
+### Business Impact
+> High freight ratios for **Electronics** and **Telephony** in northern regions suggest opportunities for regional warehouses, improved carrier partnerships, or optimized shipping routes.
+
+> Region-specific pricing and shipping strategies can help maintain profitability in areas where logistics costs consume a large portion of product value.
+
+> Optimizing fulfillment for freight-intensive categories can significantly improve margins while keeping products competitively priced.
+
+> Monitoring freight-to-price ratios across regions enables more informed inventory allocation and logistics planning, reducing operational costs and improving customer satisfaction.
+___
+> **How efficient are shipping costs across states, regions, and product categories, and where are the biggest opportunities to reduce freight expenses while maintaining customer satisfaction?**
+<img width="1797" height="1453" alt="output2" src="https://github.com/user-attachments/assets/3430f97d-a488-4f5f-8b8f-f0a29e2a1861" />
+
+### Key insights
+> The average freight cost represents **30.8% of the product price**, while the median is **23.1%**, indicating that a relatively small number of orders incur exceptionally high shipping costs.
+
+> Approximately **36.3% of all orders** have a freight-to-product ratio above the average, highlighting a significant portion of shipments where logistics costs are disproportionately high.
+
+> States such as **Roraima (RR), Rondônia (RO), Maranhão (MA), Amazonas (AM), and Tocantins (TO)** exhibit the highest average freight ratios, suggesting that geographic distance and logistical complexity substantially increase shipping costs.
+
+> Product categories such as **Telephony** and **Utilities & Home** consistently show the highest freight ratios across multiple regions, while categories like **Watches & Gifts** and **Beauty & Health** remain comparatively inexpensive to ship.
+
+> The freight ratio distribution is **highly right-skewed**, meaning that although most orders have moderate shipping costs, a small number of shipments experience exceptionally high logistics expenses that inflate the overall average.
+
+### Business Impact
+> Prioritize logistics optimization in high-cost states by improving warehouse placement, expanding carrier partnerships, or introducing regional fulfillment centers.
+
+> Review pricing and shipping strategies for product categories with consistently high freight ratios to protect profit margins.
+
+> Consider shipping subsidies, minimum order thresholds, or bundled purchases for regions where freight costs are disproportionately expensive.
+
+> Investigate extreme freight outliers to identify operational inefficiencies, inaccurate shipping calculations, or opportunities for better carrier negotiations.
+
+> Monitor freight ratio as a key logistics KPI to balance customer satisfaction, shipping costs, and overall profitability across different markets.
+
+
+
 
 
 
