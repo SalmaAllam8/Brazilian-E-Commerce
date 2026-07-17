@@ -450,6 +450,19 @@ ___
 <img width="856" height="827" alt="image" src="https://github.com/user-attachments/assets/adb361d0-31e3-4cad-9c50-14da2bf0975e" />
 
 
+## Customer Review Sentiment Analysis (NLP)
+
+### Business Question
+> What are customers saying about their shopping experience, and what is the overall sentiment of their reviews?
+
+### Approach
+> - Cleaned customer review comments.
+> - Applied a pre-trained Hugging Face Transformer model for sentiment analysis.
+> - Classified each review into sentiment categories.
+> - Combined sentiment predictions with order information for further analysis.
+> - Visualized sentiment distribution and the most common words in positive and negative reviews.
+
+<img width="1582" height="812" alt="output3" src="https://github.com/user-attachments/assets/59972a5b-cc2e-4604-bdf4-afa876f56a91" />
 
 
 
