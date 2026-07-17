@@ -113,4 +113,34 @@ indices were added to optimize the queries
 * Product category performance and purchasing behavior
 * Seasonal trends, including the impact of Black Friday on order volume and delivery performance
 
+## Order fulfillment reliability.
+*What percentage of customer orders are successfully completed versus interrupted by cancellations or operational issues?
+
+<img width="989" height="590" alt="image1" src="https://github.com/user-attachments/assets/287ed2a2-f263-4b1a-9800-943a47f305dc" />
+
+>Business Impact: The high delivery completion rate demonstrates strong operational performance and customer fulfillment reliability. Since failed or canceled orders represent only a small percentage of transactions, subsequent analyses can focus on optimizing delivery speed, freight efficiency, and customer satisfaction rather than addressing widespread fulfillment failures.
+
+
+* When do customers place the highest number of orders, and are there any temporal purchasing patterns that can help optimize business operations?
+
+<img width="1277" height="989" alt="image2" src="https://github.com/user-attachments/assets/a8eab93e-7c46-4799-a6b9-be30568fc64e" />
+
+>Key Insights
+> Monthly order volume grew steadily throughout 2017, reflecting the rapid expansion of the Olist marketplace.
+> November 2017 recorded the highest number of orders, aligning with Brazil's Black Friday shopping season.
+> Following the Black Friday surge, monthly orders stabilized at approximately 6,000–7,000 orders, indicating consistent customer demand.
+> Purchasing activity was concentrated on weekdays, with Monday (16.3%) and Tuesday (16.1%) recording the highest order volumes, while Saturday (10.9%) showed the lowest activity.
+> Customers preferred shopping during the Afternoon (38.3%), followed by Night (28.5%) and Morning (27.9%), whereas Dawn accounted for only 5.3% of purchases.
+> The sharp decline observed at the end of the timeline reflects incomplete data collection rather than an actual drop in customer demand.
+>
+> * Business Impact
+>Seasonal events, particularly Black Friday, have a significant impact on demand and require additional inventory, staffing, and logistics capacity.
+Customer purchasing behavior is highly concentrated during weekday afternoons, providing an ideal window for targeted marketing campaigns and promotional activities.
+
+>Understanding peak purchasing periods enables better workforce planning, ensuring customer support and fulfillment teams are adequately staffed during busy hours.
+Recognizing low-demand periods, such as weekends and dawn hours, creates opportunities to optimize operational costs through smarter resource allocation.
+Temporal purchasing patterns provide valuable insights for inventory planning, helping businesses anticipate demand fluctuations and improve service quality.
+
+
+
 
