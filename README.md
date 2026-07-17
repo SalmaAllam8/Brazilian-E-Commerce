@@ -129,6 +129,8 @@ ___
 >The high delivery completion rate demonstrates strong operational performance and customer fulfillment reliability. Since failed or canceled orders represent only a small percentage of transactions, subsequent analyses can focus on optimizing delivery speed, freight efficiency, and customer satisfaction rather than addressing widespread fulfillment failures.
 
 ___
+
+## Order Demand Trends & Customer Purchase Behavior Dashboard
 * When do customers place the highest number of orders, and are there any temporal purchasing patterns that can help optimize business operations?*
 
 <img width="1277" height="989" alt="image2" src="https://github.com/user-attachments/assets/a8eab93e-7c46-4799-a6b9-be30568fc64e" />
@@ -150,6 +152,8 @@ Recognizing low-demand periods, such as weekends and dawn hours, creates opportu
 Temporal purchasing patterns provide valuable insights for inventory planning, helping businesses anticipate demand fluctuations and improve service quality.
 
 ___
+
+## Customer purchase Timing and behavior dashboard 
 * When are customers most likely to place orders, and how can these purchasing patterns help optimize staffing, marketing campaigns, and operational planning?*
 <img width="1333" height="1071" alt="image3" src="https://github.com/user-attachments/assets/45752f44-f41e-47b5-bbf1-c3ea63bdafcf" />
 
@@ -269,6 +273,8 @@ ___
 
 
 ___
+
+## Brazil Regional market share and performance analysis 
 *How is revenue distributed across Brazil's macro-regions, and which regions generate the highest customer value through Average Order Value (AOV)?*
 <img width="1466" height="719" alt="image7" src="https://github.com/user-attachments/assets/e36fda64-cc93-4a80-8814-4bd1e27d9ff0" />
 
@@ -298,6 +304,8 @@ ___
 
 
 ___
+
+## Regional Order Distribution & Market Insights Dashboard
  *How is customer demand distributed across Brazil's regions, states, and cities, and which geographic markets contribute the most to overall order volume?*
 
 <img width="1511" height="1011" alt="image8" src="https://github.com/user-attachments/assets/56fa4c67-bd9f-4a62-a842-6dbf82225825" />
@@ -330,7 +338,7 @@ ___
 > - Geographic demand analysis provides valuable guidance for regional expansion, warehouse placement, inventory planning, and localized marketing strategies.
 
 ___
-
+## Evolution of E-commerce 
 *How did total sales revenue, order volume, and freight costs evolve over time, and what do these trends reveal about business growth and operational performance?*
 
 <img width="1490" height="1189" alt="image9" src="https://github.com/user-attachments/assets/410c2cb6-8438-4e02-ae13-2aeb51478204" />
@@ -359,6 +367,8 @@ ___
 
 > - Tracking revenue, order volume, and freight expenses together provides management with a comprehensive view of both commercial performance and operational efficiency, enabling more informed strategic planning.
 ___
+
+## Delivery Performance and SLA compilance analysis 
  *How effectively does the company meet its delivery promises, and which states demonstrate the strongest and weakest delivery performance?*
 <img width="1839" height="933" alt="output" src="https://github.com/user-attachments/assets/748029ec-d761-4c44-83ed-7e489c87b227" />
 
@@ -375,7 +385,7 @@ ___
 >- More accurate delivery estimates could improve customer expectations while maintaining high service quality.
 >- Regional performance comparisons help identify logistics best practices that can be replicated across underperforming states.
 ___
-
+## Freight Cost Efficiency Across Regions & Product Categories
  *Which product categories incur the highest freight costs relative to their product price across different Brazilian regions, and where are shipping costs disproportionately high?*
 <img width="1599" height="590" alt="image10" src="https://github.com/user-attachments/assets/ed0eafe0-c3dd-467d-8fa6-f8151c40427b" />
 
@@ -400,6 +410,7 @@ ___
 
 > Monitoring freight-to-price ratios across regions enables more informed inventory allocation and logistics planning, reducing operational costs and improving customer satisfaction.
 ___
+## Freight Cost Efficiency
 *How efficient are shipping costs across states, regions, and product categories, and where are the biggest opportunities to reduce freight expenses while maintaining customer satisfaction?*
 <img width="1797" height="1453" alt="output2" src="https://github.com/user-attachments/assets/3430f97d-a488-4f5f-8b8f-f0a29e2a1861" />
 
