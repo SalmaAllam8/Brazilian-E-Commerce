@@ -482,20 +482,33 @@ ___
 
 ## Tech Stack
 
-| Category | Technologies |
-|----------|--------------|
-| **Programming Language** | Python |
-| **Data Manipulation** | Pandas, NumPy |
-| **Data Visualization** | Matplotlib, Seaborn, Plotly |
-| **Geospatial Analysis** | GeoPandas, HoloViews, GeoViews, Datashader |
-| **Natural Language Processing** | Hugging Face Pipeline, WordCloud |
-| **Development Environment** | Jupyter Notebook |
-| **Version Control** | Git, GitHub |
+### Programming
+- Python
+- SQL 
+### Data Analysis
+- Pandas
+- NumPy
 
+### Data Visualization
+- Matplotlib
+- Seaborn
+- Plotly
 
+### Geospatial Analysis
+- GeoPandas
+- GeoViews
+- HoloViews
+- Datashader
 
+### Natural Language Processing
+- Hugging Face Transformers
+- PyTorch
+- WordCloud
 
-
+### Development Tools
+- Jupyter Notebook
+- Git
+- GitHub
 
 
 
