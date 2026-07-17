@@ -106,7 +106,7 @@ indices were added to optimize the queries
 >Throughout the analysis, interactive dashboards and visualizations were developed to answer key business questions, including:
 
 * Sales performance and revenue trends over time
-* Geographic distributions of revenue , delivery costs accross the states
+* Geographic distributions of revenue , delivery costs across the states
 * Logistics performance, delivery times, and late delivery analysis
 * Freight cost efficiency and freight-to-product value ratios
 * Customer review sentiment analysis using Natural Language Processing (NLP)
@@ -424,7 +424,7 @@ ___
 
 
 # Maps 
-## *Answering buisness questions but using maps*
+## *Answering business questions but using maps*
 
 ### Where does most revenue comes from?
 
