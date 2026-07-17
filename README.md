@@ -1,5 +1,12 @@
 # Brazilian E-Commerce Public Dataset by Olist
 
+# Introduction
+
+E-commerce has become one of the fastest-growing sectors of the global economy, transforming the way consumers purchase products and services. Its adoption accelerated significantly after the COVID-19 pandemic as online shopping became an essential part of everyday life. This digital transformation has enabled businesses of all sizes to reach customers beyond geographical boundaries, making markets more accessible and competitive.
+
+As the largest e-commerce market in Latin America, Brazil plays a pivotal role in the region's digital economy. With a population of over 215 million people, the country accounts for approximately **55% of all e-commerce sales in Latin America**, making it an ideal market for studying customer behavior, sales performance, logistics, and business operations. Additionally, e-commerce contributes approximately **13% of Brazil's GDP**, highlighting its significant economic impact.
+
+This project performs an end-to-end exploratory data analysis (EDA) of the Brazilian Olist e-commerce dataset to uncover actionable business insights across customer behavior, sales trends, delivery performance, regional markets, logistics, freight costs, and customer satisfaction. The analysis aims to identify opportunities for operational improvement and support data-driven business decision-making.
 
 # About the data 
 
@@ -7,7 +14,7 @@
 at multiple marketplaces in Brazil. Its features allows viewing an order from multiple dimensions: from order status, price, payment and 
 freight performance to customer location, product attributes and finally
 reviews written by customers. We also released a geolocation dataset that relates Brazilian zip codes to lat/lng coordinates.*
-
+data source : https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ## Dataset's relationship scheme 
 
 <img width="4628" height="2632" alt="Untitled Diagram_2026-07-09T05_23_12 022Z" src="https://github.com/user-attachments/assets/820bfe74-0802-4044-a6c5-48805687bd6c" />
