@@ -423,6 +423,43 @@ ___
 > Monitor freight ratio as a key logistics KPI to balance customer satisfaction, shipping costs, and overall profitability across different markets.
 
 
+# Maps 
+## *Answering buisness questions but using maps*
+
+### Where does most revenue comes from?
+
+<img width="996" height="747" alt="image" src="https://github.com/user-attachments/assets/810f492c-f17b-4237-86b8-2230c41a88e3" />
+<img width="866" height="811" alt="image" src="https://github.com/user-attachments/assets/8cb0b20e-4277-48d0-aaef-8ec3abb5daaa" />
+
+
+### Who pays more for transportation?
+<img width="983" height="747" alt="image" src="https://github.com/user-attachments/assets/2e2a04c8-1130-4a87-9808-15226061b2f3" />
+<img width="847" height="835" alt="image" src="https://github.com/user-attachments/assets/9e550e6b-6a15-4471-9f07-fe388c0fd699" />
+
+
+### Average Delivery Time
+<img width="982" height="747" alt="image" src="https://github.com/user-attachments/assets/e2124ec9-8550-49f5-b544-49502ebc06ce" />
+<img width="853" height="820" alt="image" src="https://github.com/user-attachments/assets/0f202167-23f0-4c34-93c0-30949a037ada" />
+
+### Delayed Orders
+<img width="996" height="746" alt="image" src="https://github.com/user-attachments/assets/6805c2c7-c889-4859-917b-2c25533cc241" />
+<img width="860" height="818" alt="image" src="https://github.com/user-attachments/assets/2462ed7f-cfc0-45b5-addf-17fef94f8c0e" />
+
+### States with the most installments 
+<img width="991" height="741" alt="image" src="https://github.com/user-attachments/assets/d6e22fe5-33a5-4c4a-a465-1eea29de51de" />
+<img width="856" height="827" alt="image" src="https://github.com/user-attachments/assets/adb361d0-31e3-4cad-9c50-14da2bf0975e" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
