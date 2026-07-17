@@ -235,9 +235,144 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 > Incorporate fulfillment efficiency metrics into operational dashboards to support workforce planning, warehouse capacity management, and continuous process improvement.
 
 
+## Year-over-Year Growth Performance Dashboard
+
+
+> **How did order volume change between 2017 and 2018, and what does the year-over-year comparison reveal about the marketplace's growth trajectory?**
+<img width="1311" height="511" alt="image6" src="https://github.com/user-attachments/assets/8fce157b-f538-4c15-96c2-51e6b024920f" />
+
+
+### Key Insights
+
+> Between **January and August**, total orders increased from **22,968 in 2017** to **53,991 in 2018**, representing an impressive **143% Year-over-Year growth**.
+
+> Every month in 2018 outperformed its corresponding month in 2017, demonstrating sustained marketplace expansion rather than isolated growth during a few peak periods.
+
+> Monthly order volumes remained consistently above **6,000 orders** throughout the first eight months of 2018, indicating that customer demand had stabilized at a significantly higher level.
+
+> The strongest relative improvements occurred during the first half of the year, suggesting successful customer acquisition and increased platform adoption.
+
+> The absence of any major monthly declines indicates healthy business momentum and a scalable operational model capable of supporting continued growth.
+
+### Business Impact
+
+> The sustained YoY growth demonstrates strong market expansion and validates investments in customer acquisition and marketplace development.
+
+> Forecasting models should account for the significantly higher demand observed in 2018 to improve inventory planning and logistics capacity.
+
+> Continued investment in fulfillment operations and customer support is essential to maintain service quality as order volumes increase.
+
+> Marketing strategies that contributed to the 2018 growth should be evaluated and replicated to sustain long-term business expansion.
+
+> Infrastructure, warehouse capacity, and staffing plans should be scaled proactively to support continued increases in marketplace demand.
 
 
 
+> *How is revenue distributed across Brazil's macro-regions, and which regions generate the highest customer value through Average Order Value (AOV)?*
+<img width="1466" height="719" alt="image7" src="https://github.com/user-attachments/assets/e36fda64-cc93-4a80-8814-4bd1e27d9ff0" />
+
+### Insights
+
+> The Southeast region dominates the Brazilian e-commerce market, contributing approximately **65.4% of total revenue**, making it the company's primary revenue driver.
+
+> Although the **North region accounts for only 2.5% of total revenue**, it records the **highest Average Order Value (R$161.10)**, indicating customers in this region spend considerably more per purchase.
+
+> The **Northeast region** also demonstrates strong purchasing behavior, with an average order value of **R$147.66**, well above the national average despite representing a relatively modest share of revenue (11.4%).
+
+> In contrast, the **Southeast region has the lowest Average Order Value (R$113.96)**. Its market leadership is driven by very high order volume rather than high-value transactions.
+
+> The **South (14.4%)** and **Central-West (6.4%)** occupy a middle position, contributing moderate revenue while maintaining healthy average order values.
+
+### Business Impact
+
+> The Southeast should remain the company's highest operational priority, as even small improvements in conversion, logistics, or customer retention can generate significant revenue gains due to its large customer base.
+
+> Premium product assortments and targeted marketing campaigns should be explored in the North and Northeast, where customers demonstrate a higher willingness to spend per order.
+
+> Regions with smaller market share but high Average Order Value present attractive expansion opportunities. Increasing customer acquisition in these markets could produce strong revenue growth without relying solely on higher purchase frequency.
+
+> Marketing strategies should be region-specific rather than uniform across Brazil. High-volume regions require operational efficiency and customer retention initiatives, while high-value regions may benefit more from premium positioning and personalized offers.
+
+> Combining market share analysis with Average Order Value helps distinguish between regions that generate revenue through **customer volume** and those that generate revenue through **higher customer spending**, enabling more effective allocation of marketing and operational resources.
+
+
+
+> *How is customer demand distributed across Brazil's regions, states, and cities, and which geographic markets contribute the most to overall order volume?*
+
+<img width="1511" height="1011" alt="image8" src="https://github.com/user-attachments/assets/56fa4c67-bd9f-4a62-a842-6dbf82225825" />
+
+
+### Insights
+
+> - The **Southeast (Sudeste)** consistently records the highest monthly order volume, establishing it as the company's largest regional market throughout the analysis period.
+
+> - **São Paulo (SP)** accounts for **42.2% of all customer orders**, making it the dominant state in Brazil's e-commerce market.
+
+> - **Rio de Janeiro (RJ)** and **Minas Gerais (MG)** are the second and third largest contributors, representing **12.9%** and **11.7%** of total orders, respectively.
+
+> - At the city level, **São Paulo** leads by a significant margin with **17,843 orders**, more than double the order volume of **Rio de Janeiro**, the second-ranked city.
+
+> - Customer demand is highly concentrated within a few key metropolitan areas, while many states contribute only a small percentage of total orders.
+
+> - Regional demand remains relatively stable over time, with the Southeast consistently outperforming the South, Northeast, Central-West, and North regions.
+
+### Business Impact
+
+> - Prioritize inventory allocation, warehouse capacity, and logistics investments in the **Southeast**, particularly São Paulo, where customer demand is greatest.
+
+> - Concentrate marketing campaigns and customer retention initiatives in high-volume states such as **São Paulo, Rio de Janeiro, and Minas Gerais** to maximize business impact.
+
+> - Expand fulfillment infrastructure around major metropolitan areas to improve delivery efficiency and customer satisfaction.
+
+> - Develop targeted acquisition strategies for lower-performing regions to diversify revenue sources and reduce dependence on a single geographic market.
+
+> - Geographic demand analysis provides valuable guidance for regional expansion, warehouse placement, inventory planning, and localized marketing strategies.
+
+## Business Question
+
+> *How did total sales revenue, order volume, and freight costs evolve over time, and what do these trends reveal about business growth and operational performance?*
+
+<img width="1490" height="1189" alt="image9" src="https://github.com/user-attachments/assets/410c2cb6-8438-4e02-ae13-2aeb51478204" />
+
+### Insights
+
+> - Total sales revenue increased substantially throughout the analysis period, reaching its highest value in **November 2017 (approximately R$1.01M)**, likely influenced by seasonal shopping events such as **Black Friday**.
+
+> - Monthly order volume closely follows the revenue trend, indicating that revenue growth was primarily driven by an increase in customer purchases rather than isolated high-value transactions.
+
+> - Comparing the same period (January–August), total sales increased from **R$3.11M in 2017** to **R$7.39M in 2018**, representing a **142.15% Year-over-Year revenue growth**.
+
+> - Average freight cost remained relatively stable during 2017, fluctuating around **R$18–20 per order**, before increasing during mid-2018 to more than **R$22 per order**.
+
+> - Despite significant growth in revenue and order volume, freight costs increased only gradually, suggesting that logistics expenses remained relatively controlled as the business expanded.
+
+### Business Impact
+
+> - The strong Year-over-Year revenue growth demonstrates successful business expansion and increasing customer demand, supporting continued investment in marketing and customer acquisition.
+
+> - The November revenue peak highlights the importance of seasonal events, emphasizing the need for proactive inventory planning and logistics preparation during promotional periods.
+
+> - Monitoring freight cost trends alongside revenue helps ensure that operational costs do not outpace sales growth as order volume increases.
+
+> - The gradual rise in average freight cost during 2018 may indicate expanding delivery distances, higher carrier pricing, or changing customer purchasing patterns, warranting further logistics optimization.
+
+> - Tracking revenue, order volume, and freight expenses together provides management with a comprehensive view of both commercial performance and operational efficiency, enabling more informed strategic planning.
+
+> *How effectively does the company meet its delivery promises, and which states demonstrate the strongest and weakest delivery performance?*
+<img width="1839" height="933" alt="output" src="https://github.com/user-attachments/assets/748029ec-d761-4c44-83ed-7e489c87b227" />
+
+
+### Key Insights
+>- **79.3%** of orders were delivered significantly earlier than the estimated delivery date, while only **6.6%** were delivered after the promised date.
+>- The average delivery time is **12.0 days**, and orders arrive on average **13.7 days before** the estimated delivery date.
+>- **Alagoas (20.9%)**, **Maranhão (18.2%)**, and **Sergipe (16.4%)** recorded the highest late-delivery rates, exceeding the national average (**9.1%**).
+>- **Amazonas (3.1%)**, **Acre (3.3%)**, **Amapá (3.7%)**, **Paraná (3.9%)**, and **Rondônia (4.0%)** achieved the lowest late-delivery rates.
+
+###  Business Impact
+>- Strong early-delivery performance increases customer satisfaction and strengthens trust in the platform.
+>- States with above-average late-delivery rates should be prioritized for logistics improvements and carrier optimization.
+>- More accurate delivery estimates could improve customer expectations while maintaining high service quality.
+>- Regional performance comparisons help identify logistics best practices that can be replicated across underperforming states.
 
 
 
