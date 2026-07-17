@@ -133,13 +133,41 @@ indices were added to optimize the queries
 > Customers preferred shopping during the Afternoon (38.3%), followed by Night (28.5%) and Morning (27.9%), whereas Dawn accounted for only 5.3% of purchases.
 > The sharp decline observed at the end of the timeline reflects incomplete data collection rather than an actual drop in customer demand.
 >
-> * Business Impact
+ * Business Impact
 >Seasonal events, particularly Black Friday, have a significant impact on demand and require additional inventory, staffing, and logistics capacity.
 Customer purchasing behavior is highly concentrated during weekday afternoons, providing an ideal window for targeted marketing campaigns and promotional activities.
 
 >Understanding peak purchasing periods enables better workforce planning, ensuring customer support and fulfillment teams are adequately staffed during busy hours.
 Recognizing low-demand periods, such as weekends and dawn hours, creates opportunities to optimize operational costs through smarter resource allocation.
 Temporal purchasing patterns provide valuable insights for inventory planning, helping businesses anticipate demand fluctuations and improve service quality.
+
+
+* When are customers most likely to place orders, and how can these purchasing patterns help optimize staffing, marketing campaigns, and operational planning?
+<img width="1333" height="1071" alt="image3" src="https://github.com/user-attachments/assets/45752f44-f41e-47b5-bbf1-c3ea63bdafcf" />
+
+### Key Insights
+>Order activity is concentrated during weekday business hours, with Monday recording the highest order volume, followed closely by Tuesday and Wednesday.
+>
+>Purchasing behavior follows a clear daily pattern, with demand increasing rapidly after 8 AM, peaking between 10 AM and 4 PM, and remaining relatively high until late evening.
+>
+> Overnight activity (2–6 AM) is minimal, indicating that customers rarely purchase during these hours.
+>
+>The Day × Hour heatmap highlights a consistent "Golden Purchase Window" between 10 AM and 9 PM on weekdays, where order volume is highest.
+>
+>Weekend purchasing activity decreases noticeably, particularly on Saturdays, although evening demand remains relatively stable.
+>
+### Business Impact
+
+> Schedule marketing campaigns, promotional emails, and push notifications during the **10 AM–4 PM** window to maximize customer engagement.
+
+> Allocate customer support and warehouse resources according to peak purchasing hours, improving operational efficiency during high-demand periods.
+
+> Plan flash sales and promotional events during weekday afternoons when customer activity is naturally highest.
+
+> Reduce staffing requirements during overnight hours, where customer demand is consistently low.
+
+> Use purchasing patterns to improve forecasting models and workforce scheduling, ensuring resources are aligned with expected order volumes.
+
 
 
 
