@@ -167,6 +167,75 @@ Temporal purchasing patterns provide valuable insights for inventory planning, h
 > Reduce staffing requirements during overnight hours, where customer demand is consistently low.
 
 > Use purchasing patterns to improve forecasting models and workforce scheduling, ensuring resources are aligned with expected order volumes.
+>
+
+## Sales Growth & Seasonality Performance Dashboard
+
+
+> **How has order demand evolved over time, what seasonal purchasing patterns exist, and which periods consistently generate the highest sales volume?**
+<img width="1324" height="1071" alt="image4" src="https://github.com/user-attachments/assets/fdbaa247-3e9c-4ed3-bad0-f35ef0448bf2" />
+
+
+
+
+### Key Insights
+
+> The business experienced strong and consistent order growth throughout 2017, reaching its highest monthly order volume in **November 2017**, indicating rapid marketplace expansion.
+
+> Monthly seasonality reveals that **May, July, August, and November** are the strongest-performing months, suggesting recurring periods of elevated customer demand.
+
+> September consistently records one of the lowest order volumes, indicating a seasonal slowdown before demand increases again toward the holiday shopping period.
+
+> The Year-over-Year comparison demonstrates substantial growth between 2017 and 2018, with monthly order volumes remaining significantly higher across nearly every comparable month.
+
+> The sharp decline observed during the final months of 2018 is caused by the dataset ending before the year was complete and should not be interpreted as a real decline in business performance.
+
+### Business Impact
+
+> Anticipate higher inventory requirements and warehouse capacity during peak demand months to reduce stock shortages and delivery delays.
+
+> Launch major promotional campaigns during historically strong purchasing periods such as **May, August, and November** to maximize revenue potential.
+
+> Use lower-demand months, particularly September, for inventory replenishment, operational improvements, and customer retention campaigns.
+
+> Allocate additional customer support and logistics resources ahead of seasonal demand spikes to maintain service quality during peak periods.
+
+> Incorporate seasonal demand patterns into forecasting models to improve inventory planning, staffing decisions, and supply chain efficiency.
+
+
+## Delivery Performance & Fulfillment Operations Dashboard
+> **How efficiently are orders progressing through the fulfillment pipeline, from customer purchase to carrier dispatch, and where do operational bottlenecks occur?**
+
+
+<img width="1380" height="1104" alt="image5" src="https://github.com/user-attachments/assets/af3fc528-2310-4ff9-8433-5eca11d95095" />
+
+
+### Key Insights
+
+> Most orders are approved within the **first few hours after purchase**, indicating that the payment verification process is generally efficient.
+
+> A small number of orders experience significantly longer approval times, suggesting occasional operational or payment-processing exceptions.
+
+> Warehouse-to-carrier handoff is highly concentrated within the **first 1–3 days**, with dispatch frequency declining steadily for longer processing times.
+
+> Monthly operational trends show that both approval latency and carrier dispatch time improved over the observation period, indicating increased fulfillment efficiency.
+
+> The unusually high values observed during the earliest months are caused by limited historical data and should not be interpreted as representative of normal operational performance.
+
+### Business Impact
+
+> Maintain rapid payment approval processes, as minimizing approval delays shortens the overall order fulfillment cycle.
+
+> Investigate the small percentage of orders with exceptionally long approval times to identify payment failures, fraud reviews, or system bottlenecks.
+
+> Continue optimizing warehouse operations to maximize same-day or next-day carrier dispatch, improving delivery speed and customer satisfaction.
+
+> Use operational KPIs such as approval latency and carrier handoff time to monitor fulfillment performance and identify process inefficiencies before they affect customers.
+
+> Incorporate fulfillment efficiency metrics into operational dashboards to support workforce planning, warehouse capacity management, and continuous process improvement.
+
+
+
 
 
 
