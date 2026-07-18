@@ -264,8 +264,60 @@ FROM (
 
 >-Business Insight
 
->Adding more product photos alone is unlikely to increase sales. 
+>Adding more product photos alone is unlikely to increase sales.
+---
+## Customer Retention Cohort Analysis
 
+### Objective
+
+The objective of this analysis is to evaluate customer retention over time by grouping customers into cohorts based on the month of their **first purchase**. Each cohort represents customers who made their initial purchase during the same month. The analysis measures how many of those customers returned to make additional purchases in subsequent months.
+
+---
+
+### Methodology
+
+The analysis was performed using MySQL and consisted of the following steps:
+
+1. Identified each customer's first purchase month (`cohort_month`).
+2. Assigned every order to its corresponding customer cohort.
+3. Calculated the number of months between the customer's first purchase and each subsequent purchase (`cohort_index`).
+4. Counted the number of active customers for each cohort and month.
+5. Calculated the retention rate using the following formula:
+
+\[
+Retention\ Rate = \frac{Customers\ in\ Cohort\ Month\ n}{Total\ Customers\ in\ Cohort} \times 100
+\]
+
+---
+### Key Findings
+
+- The analysis revealed **very low customer retention** across nearly all cohorts.
+- The majority of customers placed only **one order** during the observation period.
+- For the January 2017 cohort, only **3 out of 764 customers (0.39%)** made another purchase in the following month.
+- Similar retention patterns were observed for the remaining cohorts, indicating that repeat purchases were relatively uncommon.
+- A small number of customers returned after long periods (6–20 months), but these cases represented only a tiny percentage of the original cohort.
+
+---
+
+### Business Insights
+
+The cohort analysis indicates that customer retention was relatively weak throughout the dataset. Since most customers did not return for additional purchases, the business could potentially improve long-term revenue by implementing customer retention strategies such as:
+
+- Loyalty and rewards programs.
+- Personalized product recommendations.
+- Targeted email marketing campaigns.
+- Discounts for returning customers.
+- Improved post-purchase customer engagement.
+
+---
+
+### Limitations
+
+The Olist dataset represents customer activity during a fixed historical period rather than the complete customer lifetime. Consequently, some customers may have made additional purchases outside the available observation window. Therefore, the calculated retention rates should be interpreted as retention **within the available dataset** rather than the customers' complete purchasing history.
+
+*you can finf the query here : Sql/Statistical Analysis/cohort_analysis.sql*
+
+---
 # Exploratory Data Analysis & Business Analysis
 
 
