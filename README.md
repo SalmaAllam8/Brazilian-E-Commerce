@@ -284,9 +284,9 @@ The analysis was performed using MySQL and consisted of the following steps:
 4. Counted the number of active customers for each cohort and month.
 5. Calculated the retention rate using the following formula:
 
-\[
+$$
 Retention\ Rate = \frac{Customers\ in\ Cohort\ Month\ n}{Total\ Customers\ in\ Cohort} \times 100
-\]
+$$
 
 ---
 ### Key Findings
