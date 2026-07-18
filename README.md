@@ -315,7 +315,7 @@ The cohort analysis indicates that customer retention was relatively weak throug
 
 The Olist dataset represents customer activity during a fixed historical period rather than the complete customer lifetime. Consequently, some customers may have made additional purchases outside the available observation window. Therefore, the calculated retention rates should be interpreted as retention **within the available dataset** rather than the customers' complete purchasing history.
 
-*you can finf the query here : Sql/Statistical Analysis/cohort_analysis.sql*
+*you can find the query here : Sql/Statistical Analysis/cohort_analysis.sql*
 
 ---
 # Exploratory Data Analysis & Business Analysis
@@ -589,7 +589,7 @@ ___
 > - Tracking revenue, order volume, and freight expenses together provides management with a comprehensive view of both commercial performance and operational efficiency, enabling more informed strategic planning.
 ___
 
-## Delivery Performance and SLA compilance analysis 
+## Delivery Performance and SLA compliance analysis 
  *How effectively does the company meet its delivery promises, and which states demonstrate the strongest and weakest delivery performance?*
 <img width="1839" height="933" alt="output" src="https://github.com/user-attachments/assets/748029ec-d761-4c44-83ed-7e489c87b227" />
 
