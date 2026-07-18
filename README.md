@@ -103,7 +103,7 @@ These constraints prevent invalid values from being inserted into the database a
 ## Correlation Analysis 
 
 ### Price vs. Freight Value 
---- []mysql 
+``` sql
 SELECT
 (
     SUM((price - avg_price) * (freight_value - avg_freight))
@@ -122,7 +122,8 @@ FROM (
         AVG(freight_value) OVER () AS avg_freight
     FROM olist_order_items_dataset
 ) t;
----
+```
+
 <img width="222" height="61" alt="image" src="https://github.com/user-attachments/assets/decab764-7de5-4ee4-90e8-92c619ec0924" />
 
 >A moderate positive correlation was observed between product price and freight value.
@@ -130,7 +131,7 @@ FROM (
 >This suggests that products with higher prices generally incur higher shipping costs. However, the relationship is not particularly strong, indicating that shipping charges are influenced by additional factors such as product weight, dimensions, seller location, and delivery distance.
 
 ### Product Weight vs. Freight Value
----[]mysql
+``` sql
 SELECT
 (
     SUM((product_weight_g - avg_weight) * (freight_value - avg_freight))
@@ -151,7 +152,8 @@ FROM (
     JOIN olist_products_dataset p
         ON oi.product_id = p.product_id
     WHERE p.product_weight_g IS NOT NULL
-) t;---
+) t;
+```
 <img width="217" height="67" alt="image" src="https://github.com/user-attachments/assets/4b9db182-a7b7-425f-9c3f-ce6cfad0cda7" />
 
 >A moderately strong positive correlation exists between product weight and freight value.
@@ -164,7 +166,7 @@ FROM (
 
 ### Delivery Time vs. Review Score 
 
----[]mysql 
+``` sql
 
 SELECT
 (
@@ -201,7 +203,8 @@ FROM (
 
     WHERE
         o.order_delivered_customer_date IS NOT NULL
-) t;---
+) t;
+```
 <img width="220" height="62" alt="image" src="https://github.com/user-attachments/assets/3fb7b766-17da-4e8d-a254-127a6429e5f9" />
 
 > A weak to moderate negative correlation was found between delivery time and customer review scores.
@@ -214,7 +217,7 @@ FROM (
 
 ### Number of Product Photos vs. Sales
 
---- []mysql 
+``` sql
 
 SELECT
 (
@@ -249,7 +252,9 @@ FROM (
         p.product_id,
         p.product_photos_qty
 
-) t;---
+) t;
+
+```
 <img width="228" height="65" alt="image" src="https://github.com/user-attachments/assets/1f994d01-bb4e-45b7-9ae4-f6b2eaa894bf" />
 >The correlation between the number of product photos and sales is essentially zero, indicating virtually no linear relationship.
 
