@@ -97,6 +97,168 @@ To improve data integrity, several `CHECK` constraints were added.
 - `review_score BETWEEN 1 AND 5`
 These constraints prevent invalid values from being inserted into the database and help maintain data consistency. Additionally, indexes were created on frequently queried columns to improve query performance and reduce execution time.
 
+# Statistical Analysis Using SQL
+<img width="2000" height="2000" alt="flat-hand-drawn-people-analyzing-growth-charts" src="https://github.com/user-attachments/assets/ac6c3035-207c-489b-8c61-79e19eb3e4fa" />
+
+## Correlation Analysis 
+
+### Price vs. Freight Value 
+--- []mysql 
+SELECT
+(
+    SUM((price - avg_price) * (freight_value - avg_freight))
+) /
+(
+    SQRT(
+        SUM(POWER(price - avg_price, 2)) *
+        SUM(POWER(freight_value - avg_freight, 2))
+    )
+) AS pearson_correlation
+FROM (
+    SELECT
+        price,
+        freight_value,
+        AVG(price) OVER () AS avg_price,
+        AVG(freight_value) OVER () AS avg_freight
+    FROM olist_order_items_dataset
+) t;
+---
+<img width="222" height="61" alt="image" src="https://github.com/user-attachments/assets/decab764-7de5-4ee4-90e8-92c619ec0924" />
+
+>A moderate positive correlation was observed between product price and freight value.
+
+>This suggests that products with higher prices generally incur higher shipping costs. However, the relationship is not particularly strong, indicating that shipping charges are influenced by additional factors such as product weight, dimensions, seller location, and delivery distance.
+
+### Product Weight vs. Freight Value
+---[]mysql
+SELECT
+(
+    SUM((product_weight_g - avg_weight) * (freight_value - avg_freight))
+) /
+(
+    SQRT(
+        SUM(POWER(product_weight_g - avg_weight,2)) *
+        SUM(POWER(freight_value - avg_freight,2))
+    )
+) AS pearson_correlation
+FROM (
+    SELECT
+        p.product_weight_g,
+        oi.freight_value,
+        AVG(p.product_weight_g) OVER() AS avg_weight,
+        AVG(oi.freight_value) OVER() AS avg_freight
+    FROM olist_order_items_dataset oi
+    JOIN olist_products_dataset p
+        ON oi.product_id = p.product_id
+    WHERE p.product_weight_g IS NOT NULL
+) t;---
+<img width="217" height="67" alt="image" src="https://github.com/user-attachments/assets/4b9db182-a7b7-425f-9c3f-ce6cfad0cda7" />
+
+>A moderately strong positive correlation exists between product weight and freight value.
+
+>Among the variables analyzed, product weight exhibited the strongest relationship with shipping cost, suggesting that heavier products generally require higher freight charges.
+
+>-Business Insight
+
+>This finding indicates that product weight is a major driver of shipping cost. Retailers and logistics teams can use product weight when estimating freight charges, negotiating shipping contracts, or optimizing packaging strategies.
+
+### Delivery Time vs. Review Score 
+
+---[]mysql 
+
+SELECT
+(
+    SUM((delivery_days - avg_delivery) * (review_score - avg_score))
+) /
+(
+    SQRT(
+        SUM(POWER(delivery_days - avg_delivery,2)) *
+        SUM(POWER(review_score - avg_score,2))
+    )
+) AS pearson_correlation
+FROM (
+    SELECT
+        DATEDIFF(
+            o.order_delivered_customer_date,
+            o.order_purchase_timestamp
+        ) AS delivery_days,
+
+        r.review_score,
+
+        AVG(
+            DATEDIFF(
+                o.order_delivered_customer_date,
+                o.order_purchase_timestamp
+            )
+        ) OVER() AS avg_delivery,
+
+        AVG(r.review_score) OVER() AS avg_score
+
+    FROM olist_orders_dataset o
+
+    JOIN olist_order_reviews_dataset r
+        ON o.order_id = r.order_id
+
+    WHERE
+        o.order_delivered_customer_date IS NOT NULL
+) t;---
+<img width="220" height="62" alt="image" src="https://github.com/user-attachments/assets/3fb7b766-17da-4e8d-a254-127a6429e5f9" />
+
+> A weak to moderate negative correlation was found between delivery time and customer review scores.
+
+>As delivery time increases, customer satisfaction tends to decrease. Although delivery speed influences customer ratings, it is clearly not the only factor affecting reviews.
+
+>-Business Insight
+
+>Reducing delivery times may improve customer satisfaction. However, customer reviews are also likely influenced by product quality, pricing, packaging, and customer service.
+
+### Number of Product Photos vs. Sales
+
+--- []mysql 
+
+SELECT
+(
+    SUM((product_photos_qty - avg_photos) * (sales_count - avg_sales))
+) /
+(
+    SQRT(
+        SUM(POWER(product_photos_qty - avg_photos,2)) *
+        SUM(POWER(sales_count - avg_sales,2))
+    )
+) AS pearson_correlation
+FROM (
+
+    SELECT
+
+        p.product_photos_qty,
+
+        COUNT(oi.order_id) AS sales_count,
+
+        AVG(p.product_photos_qty) OVER() AS avg_photos,
+
+        AVG(COUNT(oi.order_id)) OVER() AS avg_sales
+
+    FROM olist_products_dataset p
+
+    JOIN olist_order_items_dataset oi
+        ON p.product_id = oi.product_id
+
+    WHERE p.product_photos_qty IS NOT NULL
+
+    GROUP BY
+        p.product_id,
+        p.product_photos_qty
+
+) t;---
+<img width="228" height="65" alt="image" src="https://github.com/user-attachments/assets/1f994d01-bb4e-45b7-9ae4-f6b2eaa894bf" />
+>The correlation between the number of product photos and sales is essentially zero, indicating virtually no linear relationship.
+
+>Within this dataset, increasing the number of product images does not appear to be associated with higher sales.
+
+>-Business Insight
+
+>Adding more product photos alone is unlikely to increase sales. 
+
 # Exploratory Data Analysis & Business Analysis
 
 
