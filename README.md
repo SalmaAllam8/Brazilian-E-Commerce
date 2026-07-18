@@ -256,6 +256,8 @@ FROM (
 
 ```
 <img width="228" height="65" alt="image" src="https://github.com/user-attachments/assets/1f994d01-bb4e-45b7-9ae4-f6b2eaa894bf" />
+
+
 >The correlation between the number of product photos and sales is essentially zero, indicating virtually no linear relationship.
 
 >Within this dataset, increasing the number of product images does not appear to be associated with higher sales.
