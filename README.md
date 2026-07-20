@@ -21,6 +21,7 @@ data source : https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ## Dataset's relationship scheme 
 
 <img width="4628" height="2632" alt="Untitled Diagram_2026-07-09T05_23_12 022Z" src="https://github.com/user-attachments/assets/820bfe74-0802-4044-a6c5-48805687bd6c" />
+<img width="1535" height="1024" alt="9fc47c5e-f32e-4e85-a7f5-b2352e989e60" src="https://github.com/user-attachments/assets/3b65cace-9223-4642-b25a-8611986a0fff" />
 
 
 ## Database Relationships
