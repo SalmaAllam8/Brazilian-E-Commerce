@@ -1,6 +1,6 @@
 # Brazilian E-Commerce Public Dataset by Olist
 
-<img width="710" height="444" alt="fa2e962f2587df798d9974b4028fcc46" src="https://github.com/user-attachments/assets/f78f508f-f15a-4a18-9dc1-4ba100213b9a" />
+<img width="5000" height="2638" alt="2922295_27017" src="https://github.com/user-attachments/assets/6da0df4b-a99a-4ab0-ada0-c0b6aaf34dcd" />
 
 
 ## Introduction
