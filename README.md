@@ -1,5 +1,8 @@
 # Brazilian E-Commerce Public Dataset by Olist
 
+<img width="710" height="444" alt="fa2e962f2587df798d9974b4028fcc46" src="https://github.com/user-attachments/assets/f78f508f-f15a-4a18-9dc1-4ba100213b9a" />
+
+
 ## Introduction
 
 E-commerce has become one of the fastest-growing sectors of the global economy, transforming the way consumers purchase products and services. Its adoption accelerated significantly after the COVID-19 pandemic as online shopping became an essential part of everyday life. This digital transformation has enabled businesses of all sizes to reach customers beyond geographical boundaries, making markets more accessible and competitive.
